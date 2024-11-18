@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+ 
+.back{
+    font-family: "NanumGothic";
+    position: relative;
+    margin-top: 12vh;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title1{
+    font-family: "NanumGothic";
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    font-style: bold;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4D4D4D;
+}
+
+.title2{
+    font-family: "NanumGothic";
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: bold;
+    line-height: 160%;
+    color: #FF8577;
+    margin-top: 14px;
+}
+
+.filter{
+    font-family: "NanumGothic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #4D4D4D;
+    justify-content: right;
+    display: flex;
+}
+
+.box{
+    font-family: "NanumGothic";
+    font-size: 20px;
+    text-align: center;
+    width: 198px;
+    height: 43px;
+    background: #FFFBEE;
+    outline-color: #fff;
+    border: none; 
+    margin-left: 20px;
+}
+
+.contentwrap{
+    font-family: "NanumGothic";
+    padding-top: 22px;
+    margin-top: 50px;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 1600px;
+    height: 580px;
+    box-sizing: border-box;
+}
+
+.content{
+    font-family: "NanumGothic";
+    padding-top: 25px;
+    margin-left: 100px;
+    margin-top: 22px;
+    width: 1440px;
+    height: 290px;
+    background: #FFFBEE;
+    border-radius: 40px;
+}
+
+.content div{
+    margin-left: 44px;
+    margin-bottom: 10px;
+    font-family: "NanumGothic";
+    font-style: bold;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 160%;
+    color: #FF8577;
+}
+
+.content span{
+    margin-left: 44px;
+    font-family: "NanumGothic";
+    font-style: bold;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    color: #4E4C49;
+}
+
+.content a{
+    margin-left: 44px;
+    font-family: "NanumGothic";
+    font-style: bold;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FF8577;
+}
+
+.loding{
+    width: 580px;
+    height: 580px;
+    animation: lodingani 2000ms infinite ease-in-out;
+}
+
+@keyframes lodingani{
+    0% {
+      transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+  

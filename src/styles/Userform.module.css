@@ -1,0 +1,354 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1440px;
+    width: 100%;
+    min-height: 100vh;
+    gap: 200px;
+}
+
+.Wrapper.input-help {
+    display: flex;
+    gap: 4px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    position: relative;
+    width: 1084px;
+    height: 840px;
+    background: #FFFBEE;
+    border-radius: 10px;
+}
+
+.InputSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    height: auto;
+    overflow-y: scroll;
+}
+
+.InputSection::-webkit-scrollbar {
+    width: 8px;
+}
+
+.InputSection::-webkit-scrollbar-thumb {
+    height: 200px;
+    background-color: #e8e8e8;
+    border-radius: 100px;
+}
+
+.InputSection::-webkit-scrollbar-track {
+    background-color: #FFFBEE;
+}
+
+.InputSection::-webkit-scrollbar-button:vertical:start:decrement,
+.InputSection::-webkit-scrollbar-button:vertical:start:increment {
+    display: block;
+    background-color: #FFFBEE;
+    height: 68px;
+}
+
+.Intro {
+    display: flex;
+    width: 612px;
+    height: 116px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 124px;
+}
+
+.Title1 {
+    text-align: center;
+    width: 274px;
+    height: 72px;
+    font-family: "NanumGothic";
+    font-style: bold;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 160%;
+    color: #FF8577;
+}
+
+.Title2 {
+    text-align: center;
+    width: 612px;
+    height: 40px;
+    font-family: "NanumGothic";
+    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    color: #AAA9A6;
+    margin-top: 8px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    width: 656px;
+    height: auto;
+    margin-bottom: 24px;
+    margin-top: 60px;
+}
+
+.Label{
+    margin-bottom: 40px;
+    span {
+        font-family: "NanumGothic";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+        color: #787878;
+        margin-bottom: 8px;
+      }
+}
+
+.NameInputBox{
+    display: flex;
+    font-family: "NanumGothic";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    align-items: center;
+    justify-content: center;
+    width: 626px;
+    height: 56px;
+    color: #1e1e1e;
+    background: #fff;
+    border:  1.5px solid #e8e8e8;
+    border-radius: 12px;
+    gap: 20px;
+    padding: 0px 0px 0px 20px;
+    flex: 1 0 0;
+    margin-top: 8px;
+    outline: none;
+    &:hover {
+        border: 1.5px solid #FFB500;
+    }
+    &:focus {
+        border: 1.5px solid #FFB500;
+        border-color: #FFB500;
+      }
+    &::placeholder {
+        color: #bbb;
+        font-family: "NanumGothic";
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 160%;
+      }
+}
+
+.BirthInputSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    img {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+.BirthInputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 56px;
+    padding: 2px 20px;
+    gap: 20px;
+    flex: 1 0 0;
+    font-size: 20px;
+    font-style: normal;
+    color: var(--Main, #1e1e1e);
+    font-family: "NanumGothic";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    margin-right: 8px;
+    margin-top: 8px;
+    border-radius: 12px;
+    border: 1.5px solid #e8e8e8;
+    background: #FFFBEE;
+    &::placeholder {
+      color: #bbb;
+      font-family: "NanumGothic";
+      font-style: normal;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 160%;
+  }
+}
+
+.SexSelectBox,
+.HoldSelectBox,
+.DiseaseSelectBox,
+.DisperSelectBox,
+.LowSelectBox,
+.BasicSelectBox,
+.MedicSelectBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.SexButton,
+.HoldButton,
+.DiseaseButton,
+.DisperButton,
+.LowButton,
+.BasicButton,
+.MedicButton {  
+    width: 323px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1.5px solid #e8e8e8;
+    background: #fff;
+    color: #787878;
+    font-family: "NanumGothic";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.SexButton.active,
+.HoldButton.active,
+.DiseaseButton.active,
+.DisperButton.active,
+.LowButton.active,
+.BasicButton.active,
+.MedicButton.active {
+    border: none;
+    background: #FFB500;
+    color: #ffffff;
+}
+
+.LiveSelectBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.LiveButton {  
+    width: 212px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1.5px solid #e8e8e8;
+    background: #fff;
+    color: #787878;
+    font-family: "NanumGothic";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.LiveButton.active {
+    border: none;
+    background: #FFB500;
+    color: #ffffff;
+}
+
+.LocalSelectBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.LocalButton {  
+    width: 156.5px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1.5px solid #e8e8e8;
+    background: #fff;
+    color: #787878;
+    font-family: "NanumGothic";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.LocalButton.active {
+    border: none;
+    background: #FFB500;
+    color: #ffffff;
+}
+
+.ButtonSection {
+  width: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0px 52px 0px;
+}
+
+.Button {
+  border-radius: 12px;
+  background: #f3f3f3;
+  color: #787878;
+  display: flex;
+  width: 656px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "NanumGothic";
+  padding: 16px 24px;
+  line-height: 160%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.SucButton {
+  border-radius: 12px;
+  background: #FFB500;
+  color: #ffffff;
+  display: flex;
+  width: 656px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Pretendard;
+  padding: 16px 24px;
+  line-height: 160%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}

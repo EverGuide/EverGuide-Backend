@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1440px;
+    width: 100%;
+    min-height: 100vh;
+    gap: 320px;
+}
+
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 520px;
+    height: 520px;
+    margin-top: 194px;
+}
+
+.Intro {
+    display: flex;
+    width: 520px;
+    height: 212px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 102px;
+}
+
+.Title1 {
+    position: absolute;
+    width: 520px;
+    height: 40px;
+    font-family: "NanumGothic", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 160%;
+    color: #4D4D4D;
+}
+
+.Title2 {
+    position: absolute;
+    width: 520px;
+    height: 70px;
+    margin-top: 98px;
+    font-family: "NanumGothic", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    margin-top: 100px;
+    color: #4D4D4D;
+}
+
+.ButtonSection {
+    display: flex;
+    width: 520px;
+    height: 80px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 274px;
+}
+
+.StartBtn {
+    width: 520px;
+    height: 80px;
+    border-radius: 40px;
+    background: #FFB500;
+    color: #FFFFFF;
+    font-family: "NanumGothic", sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 160%;
+    text-align: center;
+    align-items: center;
+    border: none; 
+    cursor: pointer;
+}
+
+.LogoSection {
+    display: flex;
+    width: 520px;
+    height: 520px;
+    margin-top: 194px;
+}
+
+.mascot {
+    display: flex;
+    width: 520px;
+    height: 520px;
+}
+

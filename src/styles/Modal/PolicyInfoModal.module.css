@@ -1,0 +1,57 @@
+.modal_overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Ensure it appears on top */
+}
+
+.modal_container {
+    position: relative; /* Make it a reference for absolute positioning */
+    display: flex;
+    flex-direction: column;
+    background-color: #66d2a7;
+    padding: 2.041vh 1.039vw;
+    border-radius: 2%;
+    width: 33.091vw; /* Adjust the width as necessary */
+    height: 57.837vh;
+    font-family: "NanumSquare";
+    color: white;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+
+.detail {
+    margin: 0.8vh 0;
+    font-size: 3vh;
+    line-height: 1.5;
+}
+
+.closeButton {
+    font-family: "NanumSquare";
+    position: absolute; /* Position it absolutely within the modal container */
+    top: 2.519vh; /* Distance from the top of the modal */
+    right: 1.02vw; /* Distance from the right of the modal */
+    width: 5vw;
+    height: 3vh;
+    padding: 0.21vh 0.519vw;
+    background-color: white;
+    color: #66d2a7;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 2vh;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}

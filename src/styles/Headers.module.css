@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.headercontainer {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.left {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2.3vw;
+}
+
+.logoleft {
+    display: flex;
+    cursor: pointer;
+    margin: 0; 
+    padding: 0; 
+    flex-shrink: 0;
+    margin-left: 2.0vw;
+}
+
+.menuleft {
+    display: flex;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.navelement {
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navelement > div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "NanumGothic", sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 160%;
+    color: #4D4D4D;
+    text-align: left;
+}
+
+.navelement > img {
+    margin-right: 20px;
+}
+
+.token {
+    font-family: "NanumGothic", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #ffffff;
+}
